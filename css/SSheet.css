@@ -13,7 +13,15 @@ header {
     clear: left;
     text-align: center;
 }
+.btn-transparent{
 
+background-color: transparent !important;
+border: 2px solid #ccc !important;
+border-style: dashed !important;
+text-shadow: none;
+color: #FFF !important;
+
+}
 footer {
     padding: 1em;
     color: white;
