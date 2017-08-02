@@ -1,0 +1,52 @@
+div.container {
+    width: 1200px;
+    border: 1px solid gray;
+    margin: 0 auto;
+}
+
+header {
+    padding: 1em;
+    color: white;
+    height: 692px;
+    /*background-color: black;*/
+    background-image: url("../images/Header_Background.png");
+    clear: left;
+    text-align: center;
+}
+
+footer {
+    padding: 1em;
+    color: white;
+    height: 408px;
+    /*background-color: black;*/
+    background-image: url("../images/Footer.png");
+    clear: left;
+    text-align: center;
+}
+
+#mainContaint {
+  padding: 1em;
+    color: white;
+    height: 1239px;
+    background-color: green;
+    clear: left;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
