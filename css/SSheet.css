@@ -1,14 +1,14 @@
-div.container {
-    width: 1200px;
+/*div.container {
+    
     border: 1px solid gray;
     margin: 0 auto;
 }
-
+*/
 header {
     padding: 1em;
     color: white;
     height: 692px;
-    /*background-color: black;*/
+    
     background-image: url("../images/Header_Background.png");
     clear: left;
     text-align: center;
@@ -34,7 +34,7 @@ footer {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  /*background-color: #333;*/
 }
 .topnav a {
   float: left;
@@ -49,4 +49,11 @@ footer {
 .topnav a.active {
     background-color: #4CAF50;
     color: white;
+}
+
+.navbar-header {
+    -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  height: 50px;
 }
