@@ -17,12 +17,32 @@ header {
 footer {
     padding: 1em;
     color: white;
-    height: 408px;
+    height: 350px;
     /*background-color: black;*/
     background-image: url("../images/Footer.png");
     clear: left;
     text-align: center;
 }
+
+.socialicon{
+	padding-top:25px;
+	text-align:center;
+	}
+
+  .address{
+  padding-top:85px;
+  text-align:center;
+  font-family: Myriad Pro;
+  font-size: 18px;
+
+  }
+	
+.bottom{
+	padding-top:50px;
+	text-align:center;
+  color:#999;
+  font-family: Myriad Pro;
+	}
 
 #mainContaint {
   padding: 1em;
