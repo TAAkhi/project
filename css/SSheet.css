@@ -87,7 +87,7 @@ input[type='text'] {
  #mainContaint {
    padding: 0em 5em;
    color: white;
-   height: 1239px;
+   height: auto;
     
    clear: left;
  }
@@ -95,41 +95,125 @@ input[type='text'] {
      #body_part1{
        padding: 1em;
        color: white;
-       height: 400px;
+       height: 390px;
        background-color: #0b0b0b;   
        
      }
 
     #our_product{
-      font-family: Myriad Pro;
+      font-family: -webkit-body;
       border-bottom: 0.5px solid #2c2c2c;
     }
 
     #our_product_bottom{
-      padding: 1em;
+      padding: 2em;
     }
 
-    .ResizePic{
-      margin: 1em;
+    #our_product_bottom .ResizePic{
+      width: 200px;
+      float: left;
+      margin-right: 2em;
+      font-family: -webkit-body;
+      text-align: center;
     }
+
+    #our_product_bottom .ResizePic .btnAddToCart{
+      background-color: #ea4808;
+      width:100px;
+      height: 30px;
+      font-family: -webkit-body;
+      border: none;
+    }
+
+    #our_product_bottom .ResizePic .img{
+      width: 190px;
+      height: 190px;
+    }
+
 
     /********** CSS of body_part2 **********/
     #body_part2{
       padding: 1em;
       color: white;
-      height: 200px;
-      background-color: #ccf8f9;  
+      height: 230px;
+
      
+     
+    }
+
+    #body_middle_pic{
+      background-image: url(../images/body_middle_pic.png);
+      background-repeat: no-repeat;
+      text-align: -webkit-center;
+      width: 700px;
+      height: 150px;
+      margin: 0 auto;
     }
 
     /********** CSS of body_part3 **********/
     #body_part3{
-      padding: 1em;
+      
       color: white;
-      height: 639px;
-      background-color: #05bec4;  
+      height: auto;
+      border-top: 1px solid #c8c8c8;
      
     }
+
+        #body_part3_1{
+          width: 550px;
+          display: flex; 
+          padding: 1em;
+          color: white;      
+          border-right: 1px solid #c8c8c8;
+        }           
+            
+            #body_part3_1_1{   
+                       
+            float: left;
+            width: 250px;
+            height: 500px;
+            margin-right: 1em;
+            background-image: url(../images/body3part_pic1.png);
+            padding: 100px 0px 0px 50px;
+            font-family: cursive;
+
+            }
+
+            #body_part3_1_2{
+
+            height: 500px;
+            
+            }
+
+            #body3part_pic2{
+              background-image: url(../images/body3part_pic2.png);
+              width: 250px;
+              height: 280px;
+              margin-bottom: 1em;
+               padding: 100px 0px 0px 50px;
+            font-family: cursive;
+            }
+
+            #body3part_pic3{
+              background-image: url(../images/body3part_pic3.png);
+              width: 250px;
+              height: 205px;
+               padding: 40px 0px 0px 50px;
+            font-family: cursive;
+            }
+
+        #body_part3_2{
+          width: 300px;
+          color: gray;      
+          padding: 1em;
+        }
+
+         #body_part3_2_1{
+          display: flex;
+              color: gray;
+              font-family: monospace;
+              border-bottom: 0.5px solid #c8c8c8;
+            }
 
 /*****************CSS of footer part*****************/
 
