@@ -1,9 +1,7 @@
-/*div.container {
-    
-    border: 1px solid gray;
-    margin: 0 auto;
-}
-*/
+
+/*****************CSS of header part*****************/
+
+
 header {
     padding: 1em;
     color: white;
@@ -13,16 +11,34 @@ header {
     clear: left;
     text-align: center;
 }
-.Product-list{
-text-align: left;
-font-size: 25px;
 
+.topnav {
+  overflow: hidden;
+  
 }
-.Productoffer{
-text-align: center;
-font-size: 25px;
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
 }
+
+.navbar-header {
+    -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  height: 50px;
+}
+
+
 .btn-transparent{
 
 background-color: transparent !important;
@@ -66,16 +82,36 @@ input[type='text'] {
     color: #CCC;
 }
 
-div h3, h5, buttontext{
+    #our_product{
+      font-family: Myriad Pro;
+      border-bottom: 0.5px solid #2c2c2c;
+    }
 
-  text-align: center;
-}
+    /********** CSS of body_part2 **********/
+    #body_part2{
+      padding: 1em;
+      color: white;
+      height: 200px;
+      background-color: #ccf8f9;  
+     
+    }
+
+    /********** CSS of body_part3 **********/
+    #body_part3{
+      padding: 1em;
+      color: white;
+      height: 639px;
+      background-color: #05bec4;  
+     
+    }
+
+/*****************CSS of footer part*****************/
 
 footer {
     padding: 1em;
     color: white;
     height: 350px;
-    /*background-color: black;*/
+   
     background-image: url("../images/Footer.png");
     clear: left;
     text-align: center;
@@ -101,36 +137,5 @@ footer {
   font-family: Myriad Pro;
 	}
 
-#mainContaint {
-  padding: 1em;
-    color: white;
-    height: 1239px;
-    background-color: green;
-    clear: left;
-}
 
-.topnav {
-  overflow: hidden;
-  /*background-color: #333;*/
-}
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
 
-.topnav a.active {
-    background-color: #4CAF50;
-    color: white;
-}
-
-.navbar-header {
-    -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  height: 50px;
-}
