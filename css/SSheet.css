@@ -82,9 +82,35 @@ input[type='text'] {
     color: #CCC;
 }
 
+/*****************CSS of body part*****************/
+ 
+ #mainContaint {
+   padding: 0em 5em;
+   color: white;
+   height: 1239px;
+    
+   clear: left;
+ }
+     /********** CSS of body_part1 ***********/
+     #body_part1{
+       padding: 1em;
+       color: white;
+       height: 400px;
+       background-color: #0b0b0b;   
+       
+     }
+
     #our_product{
       font-family: Myriad Pro;
       border-bottom: 0.5px solid #2c2c2c;
+    }
+
+    #our_product_bottom{
+      padding: 1em;
+    }
+
+    .ResizePic{
+      margin: 1em;
     }
 
     /********** CSS of body_part2 **********/
