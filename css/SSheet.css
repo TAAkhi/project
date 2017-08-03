@@ -39,8 +39,33 @@ border: 2px solid #ccc !important;
 border-style: solid !important;
 text-shadow: none;
 color: #FFF !important;
+text-align: center;
 
 }
+
+.foodtext{
+
+  text-align: center;
+  font-family: Myriad Pro;
+  padding-top: 280px;
+  padding-bottom: 15px;
+}
+.searchinput{
+
+  width: 580px;
+  height: 70px;
+
+}
+input[type='text'] {
+    background-image: url(../images/Search_icon.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    text-align: left;
+    background-size: contain;
+    border-radius: 35px;
+    color: #CCC;
+}
+
 div h3, h5, buttontext{
 
   text-align: center;

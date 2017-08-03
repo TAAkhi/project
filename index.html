@@ -18,33 +18,7 @@
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-	<style>
 
-
-/*nav {
-    float: left;
-    max-width: 160px;
-    margin: 0;
-    padding: 1em;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-   
-nav ul a {
-    text-decoration: none;
-}
-
-article {
-    margin-left: 170px;
-    border-left: 1px solid gray;
-    padding: 1em;
-    overflow: hidden;
-}*/
-
-</style>
 </head>
 <body>
 	<div class="container">
@@ -73,10 +47,10 @@ article {
 	      	<div class="col-md-5">
             <ul class="nav navbar-nav navbar-right">
 		              <li class="active"><a href="#">Home</a></li>
-		              <li><a href="#">Recipe</a></li>
+		              <li><a href="#">Recipe <img src="images/Menu_arrow.png"></a></li>
 		              <li><a href="#">About Us</a></li>
 		              <li><a href="#">FAQ</a></li>
-		              <li><a href="#">Menu</a></li>
+		              <li><a href="#">Menu <img src="images/Menu_arrow.png"></a></li>
             </ul>
             
           </div>
@@ -84,20 +58,23 @@ article {
 	      		<button class="btn btn-default btn-transparent">Login/Register</button>
 	      	</div>
         </div>
-
       </div>
+
+    	<div class="foodtext"><h1>Everyday With Fersh Food</h1></div>
+    		<div class="searchbutton">
+    			<input type="text" name="searchtext" placeholder="&emsp;Your Address Or Posel Code" class="searchinput" >
+    		</div>
+
     </header>
 
-    <div id="mainContaint">
+    	<div id="mainContaint">
+			<div class="container">
+				<div class="col-md-12">
+					<div class="Product-list"><strong>Our</strong> Products</div>
+				</div>
+		</div><hr>
 
-<div class="container">
-	<div class="col-md-12">
-		<div class="Product-list"><strong>Our</strong> Products</div>
-	</div>
-</div><hr>
-
-      <div class="container">
-<div class="tab-content">
+  <div class="container">
     <div role="tabpanel" class="tab-pane active" id="food">
       <div class="col-md-3 col-sm-6 single">
           <div class="image">
@@ -146,7 +123,7 @@ article {
       </div>
     </div>
   </div>
-</div>
+
 
 	
 </div>
