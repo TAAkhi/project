@@ -5,7 +5,7 @@
 header {
     padding: 1em;
     color: white;
-    height: 692px;
+    height: 650px;
     
     background-image: url("../images/Header_Background.png");
     clear: left;
@@ -38,10 +38,10 @@ header {
   height: 50px;
 }
 
-
+  
 .btn-transparent{
 
-background-color: transparent !important;
+background: transparent !important;
 border: 2px solid #ccc !important;
 border-style: dashed !important;
 text-shadow: none;
@@ -59,19 +59,29 @@ text-align: center;
 
 }
 
-.foodtext{
+.foodtext {
 
   text-align: center;
   font-family: Myriad Pro;
-  padding-top: 280px;
+  padding-top: 250px;
   padding-bottom: 15px;
 }
+.foodtextafter{
+font-family: Myriad Pro;
+font-color: #CCC;
+font-size: 13px;
+
+}
+
 .searchinput{
 
   width: 580px;
-  height: 70px;
+  height: 70px; 
+  color: #CCC;
 
 }
+
+
 input[type='text'] {
     background-image: url(../images/Search_icon.png);
     background-position: right;
@@ -79,9 +89,30 @@ input[type='text'] {
     text-align: left;
     background-size: contain;
     border-radius: 35px;
-    color: #CCC;
+    color: black;
+    border-style: groove;
 }
 
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #CCC;
+  padding-left: 35px;
+  font-size: 15px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #CCC;
+  padding-left: 35px;
+  font-size: 15px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #CCC;
+  padding-left: 35px;
+  font-size: 15px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #CCC;
+  padding-left: 35px;
+  font-size: 15px;
+}
     #our_product{
       font-family: Myriad Pro;
       border-bottom: 0.5px solid #2c2c2c;
