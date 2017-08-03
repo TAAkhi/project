@@ -13,6 +13,16 @@ header {
     clear: left;
     text-align: center;
 }
+.Product-list{
+text-align: left;
+font-size: 25px;
+
+}
+.Productoffer{
+text-align: center;
+font-size: 25px;
+
+}
 .btn-transparent{
 
 background-color: transparent !important;
@@ -22,6 +32,20 @@ text-shadow: none;
 color: #FFF !important;
 
 }
+
+.buttontext{
+background-color: orange !important;
+border: 2px solid #ccc !important;
+border-style: solid !important;
+text-shadow: none;
+color: #FFF !important;
+
+}
+div h3, h5, buttontext{
+
+  text-align: center;
+}
+
 footer {
     padding: 1em;
     color: white;
