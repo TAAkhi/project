@@ -15,12 +15,15 @@
     <!-- Adding Custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/SSheet.css"/>
 
+
+
+
   </head>
   <body>
+
     <div class="container-fluid">
 
       <header>
-
         <div class="row">
           <div class="topnav">
             <div class="col-md-3">
@@ -32,65 +35,58 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
-                </button>
+	               </button>
+	            <a style="display: inline-flex;" class="navbar-brand" href=""><img class="img-responsive" style="height: 2em;" src="images/Vector_Smart_Object.png" alt="Dispute Bills" /><span style="margin: 0.5em 0 0 0.3em;"><strong>Hot Food</strong></span> </a>  
+         	</div>
+          </div>
 
-
-                <a style="display: inline-flex;" class="navbar-brand" href=""><img class="img-responsive" style="height: 2em;" src="images/Vector_Smart_Object.png" alt="Dispute Bills" /><span style="margin: 0.5em 0 0 0.3em;"><strong>Hot Food</strong></span> </a>
-
-               
-              </div>
-
-
-            </div>
-
-            <div class="col-md-5">
+           <div class="col-md-5">
               <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#">Home</a></li>
+                    <li class="active"><a href="#">Home</li>
                     <li><a href="#">Recipe <img src="images/Menu_arrow.png"></a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">FAQ</a></li>
                     <li><a href="#">Menu <img src="images/Menu_arrow.png"></a></li>
               </ul>
-              
             </div>
 
-            <div class="col-md-4">
+        <div class="col-md-4">
               <button class="btn btn-default btn-transparent">Login/Register</button>
-            </div>
-
-          </div>
+           		</div>
+          	</div>
         </div>
-
-        <div class="foodtext"><h1>Everyday With Fersh Food</h1></div>
-          <div class="searchbutton">
-            <input type="text" name="searchtext" placeholder="&emsp;Your Address Or Posel Code" class="searchinput" >
-          </div>
-
-
-      </header>
-
-    <div id="mainContaint">
-      <div class="container">
-        <div class="col-md-12">
-          <div class="Product-list"><strong>Our</strong> Products</div>
-        </div>
-      </div>
-      <hr>
-
 
     	<div class="foodtext"><h1>Everyday With Fersh Food</h1><br>
     			<span class="foodtextafter">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
     				</div>
-    					<div class="searchbutton">
+    				<div class="searchbutton">
     			<input type="text" name="searchtext" placeholder="Your Address Or Posel Code" class="searchinput" >
     		</div>
 
     </header>
 
-    	<div id="mainContaint">
-			<div class="container">
-				<div class="col-md-12">
-					<div class="Product-list"><strong>Our</strong> Products</div>
+    	<!-- Modal section Starts here -->
+	<div class="modal fade" id="memberModal" tabindex="-1" role="dialog" aria-labelledby="memberModalLabel" aria-hidden="true">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	            <div class="modal-header">
+	                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+	                </button>
+	                 <h4 class="modal-title" id="memberModalLabel">Thank you for Being Here!</h4>
+
+	            </div>
+	            <div class="modal-body">
+	                <p>However the account provided is not known.
+	                    <BR>If you just got invited to the group, please wait for a day to have the database synchronized.</p>
+	                <p>You will now be shown the Demo site.</p>
+	            </div>
+	            <div class="modal-footer">
+	                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+	            </div>
+	        </div>
+	    </div>
+	</div> <!-- Modal section Ends here -->
+
 				</div>
 		</div><hr>
 
@@ -134,15 +130,23 @@
         </div>
 
         <div class="bottom">Copyright &copy; 2017 Avalon Incorporation. All rights reserved.</div>
+
+        
       </footer>
 
     </div>
 
 
+<script src="js/pop.js"anonymous"></script>
+
     <!-- Adding jQuery Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <!-- Adding Bootstrap JS Library -->
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  </body>
-</html>
+  	<script src="js/pop.js"></script>
 
+
+	  </body>
+	</html>
+
+	
