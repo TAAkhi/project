@@ -1,3 +1,11 @@
+*{
+  border: 0;
+  padding: 0;
+  margin: 0;
+   
+}
+
+
 
 /*****************CSS of header part*****************/
 
@@ -5,8 +13,7 @@
 header {
     padding: 1em;
     color: white;
-    height: 650px;
-    
+    height: 650px;    
     background-image: url("../images/Header_Background.png");
     clear: left;
     text-align: center;
@@ -82,7 +89,7 @@ font-size: 13px;
 }
 
 
-input[type='text'] {
+input[id='searchText'] {
     background-image: url(../images/Search_icon.png);
     background-position: right;
     background-repeat: no-repeat;
@@ -92,6 +99,46 @@ input[type='text'] {
     color: black;
     border-style: groove;
 }
+
+    /*...............Popup modal css.............*/
+
+      /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: #eaeaea; /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    /* Modal Content/Box */
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+    }
+
+    /* The Close Button */
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
 
 /*****************CSS of body part*****************/
  
@@ -114,30 +161,32 @@ input[type='text'] {
     #our_product{
       font-family: -webkit-body;
     }
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #CCC;
-  padding-left: 35px;
-  font-size: 15px;
-  font-family: monospace;
-}
-::-moz-placeholder { /* Firefox 19+ */
-  color: #CCC;
-  padding-left: 35px;
-  font-size: 15px;
-  font-family: monospace;
-}
-:-ms-input-placeholder { /* IE 10+ */
-  color: #CCC;
-  padding-left: 35px;
-  font-size: 15px;
-  font-family: monospace;
-}
-:-moz-placeholder { /* Firefox 18- */
-  color: #CCC;
-  padding-left: 35px;
-  font-size: 15px;
-  font-family: monospace;
-}
+
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: #CCC;
+      padding-left: 35px;
+      font-size: 15px;
+      font-family: monospace;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+      color: #CCC;
+      padding-left: 35px;
+      font-size: 15px;
+      font-family: monospace;
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+      color: #CCC;
+      padding-left: 35px;
+      font-size: 15px;
+      font-family: monospace;
+    }
+    :-moz-placeholder { /* Firefox 18- */
+      color: #CCC;
+      padding-left: 35px;
+      font-size: 15px;
+      font-family: monospace;
+    }
+
     #our_product{
       font-family: monospace;
       border-bottom: 0.5px solid #2c2c2c;
@@ -147,12 +196,15 @@ input[type='text'] {
       padding: 2em;
     }
 
+    
     #our_product_bottom .ResizePic{
+    
       width: 200px;
       float: left;
       margin-right: 2em;
       font-family: -webkit-body;
       text-align: center;
+
     }
 
     #our_product_bottom .ResizePic .btnAddToCart{
@@ -173,9 +225,7 @@ input[type='text'] {
     #body_part2{
       padding: 1em;
       color: white;
-      height: 230px;
-
-     
+      height: 230px;    
      
     }
 
@@ -198,7 +248,7 @@ input[type='text'] {
     }
 
         #body_part3_1{
-          width: 550px;
+          
           display: flex; 
           padding: 1em;
           color: white;      
@@ -206,12 +256,11 @@ input[type='text'] {
         }           
             
             #body_part3_1_1{   
-                       
-            float: left;
-            width: 250px;
-            height: 500px;
-            margin-right: 1em;
             background-image: url(../images/body3part_pic1.png);
+            background-repeat: no-repeat;
+            background-size: 100%;    
+            height: auto;
+            margin-right: 1em;            
             padding: 100px 0px 0px 50px;
             font-family: cursive;
 
@@ -219,13 +268,14 @@ input[type='text'] {
 
             #body_part3_1_2{
 
-            height: 500px;
+            height: auto;
             
             }
 
             #body3part_pic2{
               background-image: url(../images/body3part_pic2.png);
-              width: 250px;
+              background-repeat: no-repeat;
+              background-size: 100%;
               height: 280px;
               margin-bottom: 1em;
                padding: 100px 0px 0px 50px;
@@ -234,14 +284,15 @@ input[type='text'] {
 
             #body3part_pic3{
               background-image: url(../images/body3part_pic3.png);
-              width: 250px;
+              background-repeat: no-repeat;
+              background-size: 100%;
               height: 205px;
                padding: 40px 0px 0px 50px;
             font-family: cursive;
             }
 
         #body_part3_2{
-          width: 300px;
+         
           color: gray;      
           padding: 1em;
         }
@@ -286,4 +337,167 @@ footer {
 	}
 
 
+/*....................Register page css*/
 
+            /*header part*/
+#regHeader{
+  padding: 1em;
+  color: white;  
+  background-image: url("../images/Footer.png");
+  clear: left;
+  text-align: center;
+}           
+
+#success_message{ display: none;}
+
+
+/*.....................Login form scss*/
+
+@import "compass/css3";
+
+* { box-sizing: border-box; }
+
+#loginBody {
+  font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  color:white;
+  font-size:12px;
+  background:#333 url(/images/classy_fabric.png);
+}
+
+#loginForm {
+  background:#111; 
+  width:300px;
+  margin:30px auto;
+  border-radius:0.4em;
+  border:1px solid #191919;
+  overflow:hidden;
+  position:relative;
+  box-shadow: 0 5px 10px 5px rgba(0,0,0,0.2);
+}
+
+#loginForm:after {
+  content:"";
+  display:block;
+  position:absolute;
+  height:1px;
+  width:100px;
+  left:20%;
+  background:linear-gradient(left, #111, #444, #b6b6b8, #444, #111);
+  top:0;
+}
+
+#loginForm:before {
+  content:"";
+  display:block;
+  position:absolute;
+  width:8px;
+  height:5px;
+  border-radius:50%;
+  left:34%;
+  top:-7px;
+  box-shadow: 0 0 6px 4px #fff;
+}
+
+.inset {
+  padding:20px; 
+  border-top:1px solid #19191a;
+}
+
+#loginForm h1 {
+  font-size:18px;
+  text-shadow:0 1px 0 black;
+  text-align:center;
+  padding:15px 0;
+  border-bottom:1px solid rgba(0,0,0,1);
+  position:relative;
+}
+
+#loginForm h1:after {
+  content:"";
+  display:block;
+  width:250px;
+  height:100px;
+  position:absolute;
+  top:0;
+  left:50px;
+  pointer-events:none;
+  transform:rotate(70deg);
+  background:linear-gradient(50deg, rgba(255,255,255,0.15), rgba(0,0,0,0));
+  
+}
+
+#loginLbl {
+  color:#666;
+  display:block;
+  padding-bottom:9px;
+}
+
+#email[type=text],
+#password[type=password] {
+  width:100%;
+  padding:8px 5px;
+  background:linear-gradient(#1f2124, #27292c);
+  border:1px solid #222;
+  box-shadow:
+    0 1px 0 rgba(255,255,255,0.1);
+  border-radius:0.3em;
+  margin-bottom:20px;
+}
+
+#loginLbl[for=remember]{
+  color:white;
+  display:inline-block;
+  padding-bottom:0;
+  padding-top:5px;
+}
+
+#remember[type=checkbox] {
+  display:inline-block;
+  vertical-align:top;
+}
+
+.p-container {
+  padding:0 20px 20px 20px; 
+}
+
+.p-container:after {
+  clear:both;
+  display:table;
+  content:"";
+}
+
+.p-container span {
+  display:block;
+  float:left;
+  color:#0d93ff;
+  padding-top:8px;
+}
+
+#go[type=submit] {
+  padding:5px 20px;
+  border:1px solid rgba(0,0,0,0.4);
+  text-shadow:0 -1px 0 rgba(0,0,0,0.4);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.3),
+    inset 0 10px 10px rgba(255,255,255,0.1);
+  border-radius:0.3em;
+  background:#0184ff;
+  color:white;
+  float:right;
+  font-weight:bold;
+  cursor:pointer;
+  font-size:13px;
+}
+
+#go[type=submit]:hover {
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.3),
+    inset 0 -10px 10px rgba(255,255,255,0.1);
+}
+
+#email[type=text]:hover,
+#password[type=password]:hover,
+#loginLbl:hover ~ #email[type=text],
+#loginLbl:hover ~ #password[type=password] {
+  background: #27292c;
+}
