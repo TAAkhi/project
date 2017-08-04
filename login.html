@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Adding Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"/>
+
+    <!-- Adding Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/SSheet.css"/>
+</head>
+<body id="loginBody">
+	
+	<div class="container-fluid">
+
+		<div id="regHeader" class="row-fluid">
+        
+            <div class="topnav">
+              <div class="col-md-3">
+                
+              <!-- logo part -->
+                <div class="navbar-header">
+                  
+                  <a style="display: inline-flex;" class="navbar-brand" href=""><img class="img-responsive" style="height: 2em;" src="images/Vector_Smart_Object.png" alt="Dispute Bills" /><span style="margin: 0.5em 0 0 0.3em;"><strong>Hot Food</strong></span> </a>
+
+                 
+                </div>
+
+
+              </div>
+
+            <!-- Menu part -->
+
+              <div class="col-md-5">
+                <ul class="nav navbar-nav navbar-right">
+                      <li class="active"><a href="#">Home</a></li>
+                      <li><a href="#">Recipe <img src="images/Menu_arrow.png"></a></li>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">Menu <img src="images/Menu_arrow.png"></a></li>
+                </ul>
+                
+              </div>
+            
+            <!-- Login/Register part -->
+
+              <div class="col-md-4">
+                <button id="logRegBtn" class="btn btn-default btn-transparent">Login/Register</button>
+              </div>
+
+              
+                  <!-- The Modal -->
+                  <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <button class="btn btn-primary">Login</button>
+                      <button class="btn btn-primary">Register</button>
+                    </div>
+
+                  </div>
+         
+        </div>
+      </div>
+
+
+      <!-- .....................body part....................... -->
+
+    	<div class="row-fluid">
+      	
+      		<form id="loginForm">
+			  <h1>Employer Log in</h1>
+			  <div class="inset">
+			  <p>
+			    <label id="loginLbl" for="email">EMAIL ADDRESS</label>
+			    <input type="text" name="email" id="email">
+			  </p>
+			  <p>
+			    <label id="loginLbl" for="password">PASSWORD</label>
+			    <input type="password" name="password" id="password">
+			  </p>
+			  <p>
+			    <input type="checkbox" name="remember" id="remember">
+			    <label id="loginLbl" for="remember">Remember me for 14 days</label>
+			  </p>
+			  </div>
+			  
+			  <p class="p-container">
+			    <span>Forgot password ?</span>
+			    <input type="submit" name="go" id="go" value="Log in">
+			  </p>
+			</form>
+	      	
+		</div>
+      	
+      <!--- ....................footer part..................... -->
+      
+      <footer class="row-fluid">
+        <div class="socialicon">
+          <a href="facebook.com"><img src="images/facebook.png"/></a>&emsp;&emsp;&emsp;&emsp;&emsp;
+          <a href="facebook.com"><img src="images/instagram.png"/></a>&emsp;&emsp;&emsp;&emsp;&emsp;
+          <a href="facebook.com"><img src="images/twitter.png"/></a>&emsp;&emsp;&emsp;&emsp;&emsp;
+          <a href="facebook.com"><img src="images/youtube.png"/></a>
+        </div>
+                  
+        <div class="address">House No:27, Road No:05, Houseton, USA 
+          <img src="images/pipebar.png"/> Telephone: +1666 9876 
+          <img src="images/pipebar.png"/> Email: hotfood657@gmail.com 
+
+        </div>
+
+        <div class="bottom">Copyright &copy; 2017 Avalon Incorporation. All rights reserved.</div>
+      </footer>
+		
+	</div>
+	
+
+	<!-- Adding jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <!-- Adding Bootstrap JS Library -->
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.js"></script>
+    
+    <!-- Custom JScript -->
+    <script type="text/javascript" src="js/JScript.js"></script>
+</body>
+</html>
