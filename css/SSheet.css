@@ -16,6 +16,15 @@ header {
   overflow: hidden;
   
 }
+.hotfood{
+  margin: 0.5em 0 0 0.3em;
+}
+.img-responsive{
+
+  height: 2em;
+}
+
+
 .topnav a {
   float: left;
   display: block;
@@ -149,12 +158,13 @@ input[type='text'] {
     }
 
     #our_product_bottom .ResizePic{
-      width: 200px;
+      width: 250px;
       float: left;
       margin-right: 2em;
       font-family: -webkit-body;
       text-align: center;
-      padding-left: 115px;
+      padding-left: 45px;
+      clear: right;
     }
 
     #our_product_bottom .ResizePic .btnAddToCart{
@@ -163,8 +173,14 @@ input[type='text'] {
       height: 30px;
       font-family: -webkit-body;
       border: none;
+      position: relative;
     }
 
+.meattext{
+
+  text-align: center;
+  padding-left: 25px;
+}
     #our_product_bottom .ResizePic .img{
       width: 190px;
       height: 190px;
@@ -176,11 +192,22 @@ input[type='text'] {
       padding: 1em;
       color: white;
       height: 230px;
-
-     
-     
     }
 
+.hyphanimg{
+      display: flex; 
+      justify-content: center;
+}
+
+.specialsec{
+
+      font-family: -webkit-body;
+      color: gray;
+}
+.hying{
+
+  padding-top: 10px;
+}
     #body_middle_pic{
       background-image: url(../images/body_middle_pic.png);
       background-repeat: no-repeat;
@@ -189,6 +216,54 @@ input[type='text'] {
       height: 150px;
       margin: 0 auto;
     }
+ #body_middle_pic h2{
+
+      padding-top: 50px;
+      font-family: cursive; 
+      color: darkgoldenrod;
+ }
+
+.discountcss{
+
+  display: flex;
+  
+}
+
+.discountcss p{
+
+  padding-top: 55px;
+  padding-left: 10px;
+}
+
+.pastacss{
+
+  display: flex;  
+  padding-top: 5px;
+}
+
+.pastacss p{
+
+  padding-top: 55px; 
+  padding-left: 10px;
+}
+
+.meatcss{
+
+  display: flex;
+}
+
+.meatcss p{
+
+  padding-top: 55px;
+  padding-left: 10px;
+}
+
+
+
+
+
+
+
 
     /********** CSS of body_part3 **********/
     #body_part3{
