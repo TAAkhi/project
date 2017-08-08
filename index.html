@@ -19,10 +19,13 @@
   </head>
   <body>
 
-    <div class="container-fluid">
+   
 
       <header>
-        <div class="row">
+
+       <div class="container-fluid"> <!--This class was out of the header tag -->
+
+        <div class="row-fluid">
           <div class="topnav">
             <div class="col-md-3">
               
@@ -38,12 +41,8 @@
 
                 <a style="display: inline-flex;" class="navbar-brand" href=""><img class="img-responsive" style="height: 2em;" src="images/Vector_Smart_Object.png" alt="Dispute Bills" /><span style="margin: 0.5em 0 0 0.3em;"><strong>Hot Food</strong></span> </a>
 
-               
               </div>
-
-
             </div>
-
             <div class="col-md-5">
               <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#">Home</a></li>
@@ -51,181 +50,152 @@
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">FAQ</a></li>
                     <li><a href="#">Menu <img src="images/Menu_arrow.png"></a></li>
-              </ul>
-            </div>
-
-            <div class="col-md-4">
+                    </ul>
+                  </div>
+                <div class="col-md-4">
               <button class="btn btn-default btn-transparent">Login/Register</button>
             </div>
-
           </div>
         </div>
-
-
         <div class="foodtext"><h1>Everyday With Fersh Food</h1></div>
           <div class="searchbutton">
             <input type="text" name="searchtext" placeholder="&emsp;Your Address Or Posel Code" class="searchinput" >
           </div>
 
-
+</div> 
       </header>
 
-    
-
+    <!-- Section for body_part1 starts from here-->
+<section>
     	<div id="mainContaint">
+           <div id="body_part1">
+                <div id="our_product"><strong>Our</strong> Product</div>
+                     <div id="our_product_bottom">
+                         <div class="ResizePic">
+                             <img src="images/meatFry_Pic1.png" class="img" />
+                                <p>meat fry</p>
+                                   <p>$120</p>
+                                       <button class="btnAddToCart">Add to cart</button>
+                                        </div>
+                                        <div class="ResizePic">
+                                        <img src="images/ChickenRol_Pic2.png" class="img" />
+                                         <p>meat fry</p>
+                                         <p>$120</p>
+                                         <button class="btnAddToCart">Add to cart</button>
+                                         </div>
+                                         <div class="ResizePic">
+                                       <img src="images/ChocolateCake_Pic3.png" class="img" />
+                                       <p>meat fry</p>
+                                      <p>$120</p>
+                                   <button class="btnAddToCart">Add to cart</button>
+                                 </div>
+                              <div class="ResizePic" style="clear: right;">
+                             <img src="images/nutFry_Pic4.png" class="img" />
+                          <p>meat fry</p>
+                       <p>$120</p>
+                     <button class="btnAddToCart">Add to cart</button>
+                  </div>
+                </div>
+             </div>
+</section>
 
-        <div id="body_part1">
-          <div id="our_product"><strong>Our</strong> Product</div>
-          <div id="our_product_bottom">
-            <div class="ResizePic">
-              <img src="images/meatFry_Pic1.png" class="img" />
-              <p>meat fry</p>
-              <p>$120</p>
-              <button class="btnAddToCart">Add to cart</button>
-            </div>
 
-            <div class="ResizePic">
-              <img src="images/ChickenRol_Pic2.png" class="img" />
-              <p>meat fry</p>
-              <p>$120</p>
-              <button class="btnAddToCart">Add to cart</button>
-            </div>
-            <div class="ResizePic">
-              <img src="images/ChocolateCake_Pic3.png" class="img" />
-              <p>meat fry</p>
-              <p>$120</p>
-              <button class="btnAddToCart">Add to cart</button>
-            </div>
-            <div class="ResizePic" style="clear: right;">
-              <img src="images/nutFry_Pic4.png" class="img" />
-              <p>meat fry</p>
-              <p>$120</p>
-              <button class="btnAddToCart">Add to cart</button>
-            </div>
-
-           
-            
-          </div>
-        </div>
-
-        <div id="body_part2">
-          <div style="display: flex; justify-content: center;">
-            <img src="images/hyphan.png" /><p style="font-family: -webkit-body; color: gray; ">Special Offer</p><img src="images/hyphan.png" />
-          </div>
-
-            
-          <div id="body_middle_pic">
-            <!-- <img src="images/body_middle_pic.png" /> -->
-            <h2 style="padding-top: 50px; font-family: cursive; color: darkgoldenrod;">Buy 1 Get 1</h2>
-          </div>
-        </div>
-
-        <div id="body_part3" class="row">
-
-          <div id="body_part3_1" class="col-md-8">
-
-            <div id="body_part3_1_1">
-              <h3>Order</h3>
-              <strong><h1>Online</h1></strong>
-            </div>
-
-            <div id="body_part3_1_2">
-              <div id="body3part_pic2">
-                
-                <strong><h1>Spicy</h1></strong>
+<section>  <!--Section for body_part2 starts from here-->
+             <div id="body_part2">
+                <div style="display: flex; justify-content: center;">
+                  <img src="images/hyphan.png" /><p style="font-family: -webkit-body; color: gray; ">Special Offer</p><img src="   images/hyphan.png" />
+                    </div>
+                        <div id="body_middle_pic">
+                          <!-- <img src="images/body_middle_pic.png" /> -->
+                              <h2 style="padding-top: 50px; font-family: cursive; color: darkgoldenrod;">Buy 1 Get 1</h2>
+                                </div>
+                                   </div>
+                                     <div id="body_part3" class="row">
+                                       <div id="body_part3_1" class="col-md-8">
+                                        <div id="body_part3_1_1">
+                                      <h3>Order</h3>
+                                    <strong><h1>Online</h1></strong>
+                                 </div>
+                                <div id="body_part3_1_2">
+                             <div id="body3part_pic2">
+                           <strong><h1>Spicy</h1></strong>
+                         </div>
+                       <div id="body3part_pic3">
+                    <h2>Summer Offer</h2>
+                 </div>
               </div>
-              <div id="body3part_pic3">
-                <h2>Summer Offer</h2>
-                
+            </div>
+
+             <div id="body_part3_2" class="col-md-3">
+               <div id="body_part3_2_1">
+                     <p>Discount Offer</p>
+                       </div>
+                         <div style="display: flex;">
+                           <img src="images/body3part_pic4.png">
+                             <p style="padding-top: 55px; padding-left: 10px;">sousage <br/> 10% off</p>
+                               </div>
+                                <div style="display: flex;">
+                               <img src="images/body3part_pic5.png">
+                               <p style="padding-top: 55px; padding-left: 10px;">Pasta <br/> 5% off</p>
+                              </div>
+                              <div style="display: flex;">
+                             <img src="images/body3part_pic6.png">
+                           <p style="padding-top: 55px; padding-left: 10px;">Meat Fry <br/> 3% off</p>
+                         </div>
+                       </div>
+                      </div>
+                   </div> 
+                 </div>
               </div>
-              
-            </div>
+</section>
 
-          </div>
-
-          <div id="body_part3_2" class="col-md-3">
-            <div id="body_part3_2_1">
-              <p>Discount Offer</p>
-
-            </div>
-
-            <div style="display: flex;">
-              <img src="images/body3part_pic4.png">
-              <p style="padding-top: 55px; padding-left: 10px;">sousage <br/> 10% off</p>
-            </div>
-            <div style="display: flex;">
-              <img src="images/body3part_pic5.png">
-              <p style="padding-top: 55px; padding-left: 10px;">Pasta <br/> 5% off</p>
-            </div>
-            <div style="display: flex;">
-              <img src="images/body3part_pic6.png">
-              <p style="padding-top: 55px; padding-left: 10px;">Meat Fry <br/> 3% off</p>
-            </div>
-          </div>
-        </div>
-               
-             
-        </div>
-               
-      </div>
-    </div>
-
-
-    
       <!--- footer part -->
-      
       <footer>
-        <div class="socialicon">
-          <a href="facebook.com"><img src="images/facebook.png"/></a>&emsp;&emsp;&emsp;&emsp;&emsp;
-          <a href="facebook.com"><img src="images/instagram.png"/></a>&emsp;&emsp;&emsp;&emsp;&emsp;
-          <a href="facebook.com"><img src="images/twitter.png"/></a>&emsp;&emsp;&emsp;&emsp;&emsp;
-          <a href="facebook.com"><img src="images/youtube.png"/></a>
-        </div>
-                  
-        <div class="address">House No:27, Road No:05, Houseton, USA 
-          <img src="images/pipebar.png"/> Telephone: +1666 9876 
-          <img src="images/pipebar.png"/> Email: hotfood657@gmail.com 
-         </div>
-
+         <div class="socialicon">
+              <a href="facebook.com"><img src="images/facebook.png"/></a>&emsp;&emsp;&emsp;&emsp;&emsp;
+                <a href="facebook.com"><img src="images/instagram.png"/></a>&emsp;&emsp;&emsp;&emsp;&emsp;
+                  <a href="facebook.com"><img src="images/twitter.png"/></a>&emsp;&emsp;&emsp;&emsp;&emsp;
+                  <a href="facebook.com"><img src="images/youtube.png"/></a>
+                  </div>
+                   <div class="address">House No:27, Road No:05, Houseton, USA 
+                 <img src="images/pipebar.png"/> Telephone: +1666 9876 
+               <img src="images/pipebar.png"/> Email: hotfood657@gmail.com 
+            </div>
         <div class="bottom">Copyright &copy; 2017 Avalon Incorporation. All rights reserved.</div>
-
-	
-
    </footer>
 
-    </div>
-
+<!-- Modal section Starts here -->    
 <div class="modal fade" id="memberModal" tabindex="-1" role="dialog" aria-labelledby="memberModalLabel" aria-hidden="true">
-	    <div class="modal-dialog">
-	        <div class="modal-content">
-	            <div class="modal-header">
-	                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
-	                </button>
-	                 <h4 class="modal-title" id="memberModalLabel">Thank you for Being Here!</h4>
-						<div class="parent-wrapper">
-						 	 <div class="subscribe-wrapper">
-						   	 <h4>SUBSCRIBE TO OUR NEWSLETTER</h4>
-						   		 <input type="email" name="email" class="subscribe-input" placeholder="Your e-mail">
-						   		 <div class="submit-btn">SUBMIT</div>
-						  		</div>
-								</div>
-	           				</div>
-	           			<div class="modal-footer">
-	                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-	            </div>
-	        </div>
-	    </div>
-	</div> <!-- Modal section Ends here -->
-	
+   <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+               </button>
+                  <h4 class="modal-title" id="memberModalLabel">Thank you for Being Here!</h4>
+                     <form action="insertinto_database.php" method="post" >
+                       <fieldset>
+                         <input id="subcriptiontext" type="text" name="name" value="" placeholder="Enter Your Name"><br>
+                            <input id="subcriptiontext" type="text" name="email" value="" placeholder="Enter Email Address"><br>
+                            <br><input id="subscriptionbutton" type="submit" name="Submit" value="Submit Your Email"><br>
+                           </fieldset>
+                          </form>
+                       </div>
+                    <div class="modal-footer">
+                 <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+               </div>
+           </div>
+      </div>
+  </div> <!-- Modal section Ends here -->
+
+
+
     <!-- Adding jQuery Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <!-- Adding Bootstrap JS Library -->
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  	<script src="js/pop.js"></script>
-
-  	
-
-
+    <!-- Link for popup javascript code  -->
+  	<script src="js/pop.js"></script> 	
+    
 	  </body>
 	</html>
 
